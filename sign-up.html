@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sign Up</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 75vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div><img src="sun.png" width="100" height="100" alt="logo" /></div>
+      <h1>Sign Up</h1>
+      <form method="get ">
+        <!-- First and Last Name Fields -->
+        <input type="text" placeholder="First Name" /><br /><br />
+        <input type="text" placeholder="Last Name" /><br /><br />
+        <!-- Email and Password Fields -->
+        <input type="email" placeholder="Email" /><br /><br />
+        <input type="password" placeholder="Password" /><br /><br />
+        <!-- Birthday Field -->
+        <input type="date" placeholder="Birthday" /><br /><br />
+        <!-- Form with fieldset, legend, and label -->
+        <fieldset>
+          <legend>Do you agree to the terms?</legend>
+          <label><input type="radio" name="radio" value="yes" /> Yes</label>
+          <label><input type="radio" name="radio" value="no" /> No</label><br />
+          <label><input type="submit" value="Sign Up!" /></label><br />
+          <label><input type="reset" /></label>
+        </fieldset>
+      </form>
+      <a href="index.html">Back to Welcome Page</a>
+    </div>
+  </body>
+</html>
